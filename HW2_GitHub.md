@@ -183,10 +183,37 @@ Differneces between master branch and feature-msg branch
 
 
 11. **Now repeat item 9, but proceed with the manual merge (editing A.java). All implemented methods are needed. Explain your procedure.**
-    1) Switched branch into print-msg
+    
+    1) Switch to master branch
+       : git checkout master
+    2) Merge the print-msg branch
+       : git merge print-msg
+
+    * Conflicts occured
+      - In print-msg branch
+        : nano A.java
+
+      public class A {
+    public void printMessage() {
+        System.out.println("Hello opensource world!");
+        System.out.println("This is a new message.");
+        System.out.println("Git is fun, isn't it?");
+    }
+}
+
+     -> This procedure shows manually resolve the merging process and explain the procedure for maintaining all the methods. The important point is to manually resolve the conflict, remove the collision marker, and integrate the codes of the two branches to create the final code.
+    
+    3) Add the resolved file and complete the merge
+       : git add A.java
+    4) Complete the merge
+       : git commit
+    5) Merge again
+       : git merge print-msg 
+    6) Check the current situation 
+       : git status
+       -> nothing to commit, working tree clean
 
 
-   
 
     
 
@@ -203,7 +230,6 @@ Differneces between master branch and feature-msg branch
            -> We can identify if the merge is completed normally and master branch is latest stauts.  
       
    
-
 
 
 
