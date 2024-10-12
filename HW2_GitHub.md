@@ -148,8 +148,8 @@ Differneces between master branch and feature-msg branch
         * Erase the conflits
       -> I opened A.java and saw some conflicting markers, '<<<<<< HEAD, =====, >>>>>> print-msg') so I erased them.
 
-<img width="505" alt="스크린샷 2024-10-13 오전 12 01 50" src="https://github.com/user-attachments/assets/0417af66-4d88-46f1-8552-f345260f8a71">
-<img width="566" alt="스크린샷 2024-10-13 오전 12 02 46" src="https://github.com/user-attachments/assets/f2ee7f06-30ff-43d7-90c3-f3424ba09f6d">
+<img width="524" alt="스크린샷 2024-10-13 오전 12 50 35" src="https://github.com/user-attachments/assets/27188073-791c-465a-9219-5e1d5c89f265">
+
 
      : git add A.java
      -> After solving the conflict, I saved the file and added it to the staging area. 
