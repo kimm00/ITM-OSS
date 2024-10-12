@@ -18,6 +18,7 @@
    
 2. **Try git log --graph --all to see the commit tree. Paste the result here and write a paragraph to provide an interpretation of what you found.**
     - git log --graph --all
+      
   <img width="558" alt="스크린샷 2024-10-12 오후 11 13 54" src="https://github.com/user-attachments/assets/eb43562d-50a9-4960-aa60-f6a70781387f">
 
   1) master branch (HEAD -> master)
@@ -33,7 +34,8 @@
 
 
 3. **Choose an already existing branch and use git diff BRANCH_NAME to view the differences between a branch and the current branch. Summarize the difference from master to the other branch.**
-    - git diff fearue-msg 
+    - git diff fearue-msg
+      
    <img width="531" alt="스크린샷 2024-10-12 오후 11 24 23" src="https://github.com/user-attachments/assets/00bf8968-8c32-495c-ab69-28f78b8f480d">
 
 Differneces between master branch and feature-msg branch
@@ -63,8 +65,10 @@ Differneces between master branch and feature-msg branch
     4) git add A.java
     5) git commit
     6) Check the merge is successful
-       - git log --online --graph 
+       - git log --online --graph
+         
   <img width="489" alt="스크린샷 2024-10-12 오후 11 44 22" src="https://github.com/user-attachments/assets/b14ec50c-6285-4ebe-995d-97565e7c2666">
+      
        -> Indicates that feature-msg branch has merged into the master brnach. The two branches have now merged into one. 
 
 
@@ -74,7 +78,8 @@ Differneces between master branch and feature-msg branch
 
 5. **Write a command (or sequence) to (i) create a new branch called print-msg (from the master) and (ii) change to this branch.**
     - Make new branch named print-msg in master brnach
-      : git checkout -b pring-msg master 
+      : git checkout -b pring-msg master
+      
 <img width="532" alt="스크린샷 2024-10-12 오후 11 48 07" src="https://github.com/user-attachments/assets/7ab85256-f19b-4eb1-89a7-fd3eff1776e3">
 
 
@@ -91,6 +96,7 @@ Differneces between master branch and feature-msg branch
   - Open A.java
     : nano A.java
   - Edit A.java
+    
 <img width="568" alt="스크린샷 2024-10-12 오후 11 50 13" src="https://github.com/user-attachments/assets/c56f9da9-bd45-4de7-acdc-408c014ebaf8">
 
 
@@ -101,6 +107,7 @@ Differneces between master branch and feature-msg branch
       : git add A.java
     2) Commit the changes
       : git commit -m "Implement printMessage method in A.java"
+
 <img width="564" alt="스크린샷 2024-10-12 오후 11 54 01" src="https://github.com/user-attachments/assets/3af1d8f1-c6ee-4bc2-8c09-52cdcbc2b5a4">
 
 
@@ -118,11 +125,14 @@ Differneces between master branch and feature-msg branch
     2) Open A.java
        : nano A.java
     3) Modify A.java
+       
 <img width="562" alt="스크린샷 2024-10-12 오후 11 57 43" src="https://github.com/user-attachments/assets/55d8a8dd-7622-4d24-a3e1-31bd1774d0e4">
+   
     4) Add a changing file to git
        : git add A.java
     5) Commit changes to master branch
        : git commit -m "Add 'Hello opensource world!' to printMessage method in A.java"
+       
 <img width="566" alt="스크린샷 2024-10-12 오후 11 59 12" src="https://github.com/user-attachments/assets/e7b11926-f6b4-44dc-88c8-d9be20e1b381">
 
 
@@ -136,9 +146,11 @@ Differneces between master branch and feature-msg branch
       - Already on 'master'
    2) Merge the print-msg branch
         * Erase the conflits
-      -> I opened A.java and saw some conflicting markers, '<<<<<< HEAD, =====, >>>>>> print-msg') so I erased them. 
+      -> I opened A.java and saw some conflicting markers, '<<<<<< HEAD, =====, >>>>>> print-msg') so I erased them.
+
 <img width="505" alt="스크린샷 2024-10-13 오전 12 01 50" src="https://github.com/user-attachments/assets/0417af66-4d88-46f1-8552-f345260f8a71">
 <img width="566" alt="스크린샷 2024-10-13 오전 12 02 46" src="https://github.com/user-attachments/assets/f2ee7f06-30ff-43d7-90c3-f3424ba09f6d">
+
      : git add A.java
      -> After solving the conflict, I saved the file and added it to the staging area. 
      : git commit
@@ -147,6 +159,7 @@ Differneces between master branch and feature-msg branch
        * Check the merge
     : git log --oneline --graph
     -> The merge was successfully completed, and both branches' changes were combined into the master branch. The print-msg branch changed, including the new printMessage() method: "Hello opensource world!" 
+    
  <img width="543" alt="스크린샷 2024-10-13 오전 12 05 21" src="https://github.com/user-attachments/assets/44fd3cb5-826a-484e-8e99-5330316970e3">
 
 
@@ -157,7 +170,9 @@ Differneces between master branch and feature-msg branch
        : git merge --abort
     2) Check the situation
        : git status
+       
     <img width="467" alt="스크린샷 2024-10-13 오전 12 11 29" src="https://github.com/user-attachments/assets/b719534e-30a4-4180-8be4-67ee8a592ee6">
+
 -> This code means the merge has already been completed and there are no changes to commit. 
 
    
