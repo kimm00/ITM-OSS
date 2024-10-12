@@ -235,8 +235,12 @@ Differneces between master branch and feature-msg branch
 
 13. **Complete Part 2. Then, come back here and answer the following: Report your experience of submitting the Part 2. Please, include the steps you followed, the commands you used, and the problems you faced (within the file you created for the Part 1).**
     - _답변을 여기에 입력하세요_
-   
 
+
+
+# Part 2: Using Github
+
+<img width="1122" alt="스크린샷 2024-10-13 오전 2 22 17" src="https://github.com/user-attachments/assets/f5a45dfa-e6a4-4e2e-9743-ca09625ba451">
 
 
 
