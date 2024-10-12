@@ -194,7 +194,7 @@ Differneces between master branch and feature-msg branch
     1) After solving conflicts, commit the merge
        - git add A.java : add file that conflicts were solved.
        - git commit : commit the merge
-    2) Converit into master branch
+    2) Convert into master branch
        - git checkout master
     3) Merge print-msg to master; the content that solved in print-msg
        - git merge print-msg
