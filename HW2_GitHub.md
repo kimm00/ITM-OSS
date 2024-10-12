@@ -2,10 +2,15 @@
 
 1. **List all the branches in this repository and, for each branch, list the commits.**
     - git branch
+      
 <img width="388" alt="스크린샷 2024-10-12 오후 10 52 46" src="https://github.com/user-attachments/assets/50c46643-fd11-4e62-92c2-329a05ffaddb">
+
     - git checkout
+      
 <img width="473" alt="스크린샷 2024-10-12 오후 11 05 55" src="https://github.com/user-attachments/assets/36f7134d-4367-4df9-ad52-c6e0b575bce6">
+
     - git log --decorate
+    
 <img width="554" alt="스크린샷 2024-10-12 오후 11 06 05" src="https://github.com/user-attachments/assets/32956564-2acd-4708-a419-4543ff58b850">
 
 
