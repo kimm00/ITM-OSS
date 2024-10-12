@@ -157,6 +157,7 @@ Differneces between master branch and feature-msg branch
      -> I committed the merge to complete the process 
      
 <img width="535" alt="스크린샷 2024-10-13 오전 12 04 11" src="https://github.com/user-attachments/assets/37c52977-243b-49ee-8ca8-1357060fa236">
+       
        * Check the merge
     : git log --oneline --graph
     -> The merge was successfully completed, and both branches' changes were combined into the master branch. The print-msg branch changed, including the new printMessage() method: "Hello opensource world!" 
