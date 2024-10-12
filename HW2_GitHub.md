@@ -191,7 +191,17 @@ Differneces between master branch and feature-msg branch
     
 
 12. **Write a command (or set of commands) to proceed with the merge and make master branch up-to-date.**
-    - _답변을 여기에 입력하세요_
+    1) After solving conflicts, commit the merge
+       - git add A.java : add file that conflicts were solved.
+       - git commit : commit the merge
+    2) Converit into master branch
+       - git checkout master
+    3) Merge print-msg to master; the content that solved in print-msg
+       - git merge print-msg
+    4) If the merge is completed, master branch is up to date, the same as the print-msg branch.
+       - git log --online --graph
+           -> We can identify if the merge is completed normally and master branch is latest stauts.  
+      
    
 
 
@@ -199,4 +209,10 @@ Differneces between master branch and feature-msg branch
 
 13. **Complete Part 2. Then, come back here and answer the following: Report your experience of submitting the Part 2. Please, include the steps you followed, the commands you used, and the problems you faced (within the file you created for the Part 1).**
     - _답변을 여기에 입력하세요_
+   
+
+
+
+
+
 
