@@ -239,10 +239,10 @@ Differneces between master branch and feature-msg branch
       - Fork '2024-OSS' repository to my account.
     2) Clone the repository
       : git clone https://github.com/kimm00/2024-OSS.git
+      : : cd 2024-OSS
 
 <img width="662" alt="스크린샷 2024-10-13 오후 2 23 03" src="https://github.com/user-attachments/assets/f161db1b-b1b5-4405-9d2b-a4bd5ca4118f">
 
-      : cd 2024-OSS
       
     3) Create a markdown file
       : cd students                    -> Move to students file
