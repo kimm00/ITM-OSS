@@ -234,9 +234,43 @@ Differneces between master branch and feature-msg branch
 
 
 13. **Complete Part 2. Then, come back here and answer the following: Report your experience of submitting the Part 2. Please, include the steps you followed, the commands you used, and the problems you faced (within the file you created for the Part 1).**
-    - _답변을 여기에 입력하세요_
+    
+    1) Fork the repository
+      - Fork '2024-OSS' repository to my account.
+    2) Clone the repository
+      : git clone https://github.com/kimm00/2024-OSS.git
 
+<img width="662" alt="스크린샷 2024-10-13 오후 2 23 03" src="https://github.com/user-attachments/assets/f161db1b-b1b5-4405-9d2b-a4bd5ca4118f">
 
+      : cd 2024-OSS
+      
+    3) Create a markdown file
+      : cd students                    -> Move to students file
+      : touch 23102003_kim_doyi.md
+
+<img width="585" alt="스크린샷 2024-10-13 오후 2 24 02" src="https://github.com/user-attachments/assets/a99699ed-61ec-4108-a9c2-3702ddae6720">
+
+    4) Write the report in Makrdown; Using Visual Studio Code
+    
+ <img width="1098" alt="스크린샷 2024-10-13 오후 2 26 52" src="https://github.com/user-attachments/assets/7f94f544-b443-477a-8474-bb6e39289df9">
+
+    5) Stage and commit the changes
+      : git add 23102003_kim_doyi.md         -> Add the created file to git
+      : git commit -m "report"
+
+<img width="645" alt="스크린샷 2024-10-13 오후 2 29 29" src="https://github.com/user-attachments/assets/152718eb-fe1e-4536-8687-db91e9a8e197">
+
+    6) Push the changes to Github
+      : git push 
+
+   <img width="646" alt="스크린샷 2024-10-13 오후 2 30 09" src="https://github.com/user-attachments/assets/618e5c6d-b271-4397-940d-08116c281445">
+   
+    7) Create a pull request
+      - Access GitHub to create a Pull Request from forked repository to the original course repository
+      
+<img width="570" alt="스크린샷 2024-10-13 오후 2 34 03" src="https://github.com/user-attachments/assets/51115233-4db9-4db6-8925-38fb0be5d862">
+
+* I faced some problems that I should be authenticated using the Persoanl Access Token because of GitHub password authentication was removed. After creating the token in GitHub, the token was used instead of a password when git pushing. 
 
 # Part 2: Using Github
 
